@@ -1,0 +1,27 @@
+body{
+	background-color: #780116;
+	height: 100vh;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.inicio{
+	width: 250px;
+	height: 250px;
+	background-image: url("img/logoFINDE.PNG");
+	background-size: contain;
+	background-position: center;
+	display: table;
+	justify-content: center;
+	align-items: center;
+}
+.access{
+	width: 100%;
+	text-align: center;
+  	display:table-cell;
+  	vertical-align: middle;
+}
