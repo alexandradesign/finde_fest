@@ -32,6 +32,8 @@ a{
 	display: none;
 }
 .header{
+	position: fixed;
+	top: 0;
 	margin: 0;
 	width: 100%;
 	display: flex;
@@ -92,13 +94,15 @@ a{
 		margin-left: 0;
 	}
 	.nav{
-		position: absolute;
+		position: fixed;
 		top: 85px;
 		left: -300px;
 		width: 300px;
 		transition: 1s;
 		background-color: #780116;
 		height: 100%;
+		overflow: hidden;
+		z-index: 5;
 	}
 	.menu a{
 		color: #fff;
@@ -106,7 +110,6 @@ a{
 	.checked:checked ~ .nav{
 		left: 0;
 		transition: 1s;
-		
 	}
 	.checked:checked ~ .hamclosed{
 		display: none;
@@ -120,6 +123,7 @@ a{
 		display: block;
 	}
 	.logo{
+		width: 160px;
 		margin: 0 auto;
 		margin-top: 10px;
 	}
