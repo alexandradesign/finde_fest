@@ -21,30 +21,31 @@ h3{
 	background-color: #780116;
 	height: 45px;
 	padding: 10px;
-	width: 85px;
+	width: 105px;
 	border-radius: 10px;
 	
 }
 .form a:hover{
 	color: white;
 }
-
-.footer{
+.barrapersonal{
 	position: fixed;
-	bottom: 0;
-	background-color: #780116;
 	width: 100%;
-	height: 100px;
-	padding-top: 30px;
+	bottom: 40px;
+	display: flex;
+	flex-flow: row;
+	z-index: 5;
+	justify-content: center;
+	
 }
-.avisos{
-	margin-left: auto;
-	margin-right: auto;
-	width: 10%;
+.barrapersonal li{
+	padding: 10px 40px;
+	background-color: #780116;
 }
-.avisos a:hover{
-	color: #fff;
+.barrapersonal i{
+	font-size: 50px;
 }
+
 
 
 
